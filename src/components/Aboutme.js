@@ -22,9 +22,13 @@ const Aboutme = () => {
     <div className="left">
         <h1>Who Am I?</h1>
       <p><span className="name">  Devendhra A </span><br></br>I am a react front-end developer. I create responsive secure websites for my clients.</p>
-        <Link to="/"> 
-          <a href="#contact" onClick={(e) => scrollToSection("contact", e)} className="btn">Contact</a>
-        </Link>
+      <a
+          href="#contact"
+          onClick={(e) => scrollToSection("contact", e)}
+          className="btn"
+        >
+          Contact
+        </a>
     </div>
     <div className="right">
       <div className="img-container">
