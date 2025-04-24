@@ -1,6 +1,5 @@
 import "./AboutmeStyles.css"
 import React from 'react'
-import {Link} from "react-router-dom"
 import React1 from "../assets/React-1.jpg"
 import React2 from "../assets/React-2.webp"
 
